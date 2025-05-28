@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XMB</title>
+    <link rel="stylesheet" href="scss/main.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <audio id="startup" src="audio/startup.mp3" type="audio/mpeg"></audio>
+    <audio id="nav" src="audio/nav.mp3" type="audio/mpeg"></audio>
+    <video autoplay loop muted plays-inline class="back-vid" id="vid" src="images/vid.mp4" type="video/mp4"></video>
+    
+    <header>
+        <section class="title" id="title">
+            <h1>WS3</h1>
+            <p>WebStation 3</p>
+        </section>
+    </header>
+
+    <section class="warning">
+        <p class="warninghead">DISCLAIMER:</p>
+        <p>This is a recreation of the PS3's XMB. This project is used for demonstrational purposes and the design and its rights belong to Sony.</p>
+    </section>
+
+    <section class="clock">
+        <div class="clock-container">
+            <p id="date"></p>
+        </div>
+    </section>
+
+    <main id="menu">
+        <section class="xmb-main">
+
+            <!-- Home -->
+            <div class="xmb-title homeMenu active">
+                <img class="home" src="images/home.png" alt="">
+                <p class="titletext">Home</p>
+                <div class="xmb-contents">
+                    <div class="submenu one" id="about">
+                        <img class="abimg" src="images/info.png" alt="">
+                        <p id="about">Welcome!</p>
+                        <div class="about-bg">
+                            <div class="infowrapper">
+                                <h1>Welcome to WebStation 3!</h1>
+                                <p>Navigate through the XMB using the arrow keys or a controller.</p>
+                                <p>Made by Pariksith Menon</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="submenu two" id="two">
+                        <img class="resimg" src="images/user.png" alt="">
+                        <p id="twotext">User 1</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Settings -->
+            <div class="xmb-title settings">
+                <img class="settings" src="images/settings.png" alt="">
+                <p class="titletext">Settings</p>
+                <div class="xmb-contents">
+                    <div class="submenu one" id="about">
+                        <img class="abimg" src="images/update.png" alt="">
+                        <div class="context">
+                            <p id="about">System Update</p>
+                            <p class="subtext">Update your firmware</p>
+                        </div>
+                    </div>
+                    <div class="submenu two" id="two">
+                        <img class="resimg" src="images/display.png" alt="">
+                        <div class="context">
+                            <p id="disptext">Display Settings</p>
+                            <p class="subtext">Adjust your display</p>
+                        </div>
+                    </div>
+                    <!-- New Screensaver submenu -->
+                    <div class="submenu three" id="screensaver">
+                        <img class="sysimg" src="images/display.png" alt="">
+                        <div class="context">
+                            <p id="screensaver-text">Screensaver</p>
+                            <p class="subtext">Change video hue</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Photos -->
+            <div class="xmb-title messages">
+                <img class="messages" src="images/photo.png" alt="">
+                <p class="titletext">Photos</p>
+                <div class="xmb-contents">
+                    <div class="submenu one" id="about">
+                        <img class="abimg" src="images/photo.png" alt="">
+                        <p id="about">Test</p>
+                    </div>
+                    <div class="submenu two" id="two">
+                        <img class="twoimg" src="images/resume.png" alt="">
+                        <p id="twotext">Test</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Music -->
+            <div class="xmb-title music">
+                <img class="messages" src="images/music.png" alt="">
+                <p class="titletext">Music</p>
+                <div class="xmb-contents">
+                    <div class="submenu one" id="about">
+                        <img class="abimg" src="images/music.png" alt="">
+                        <p id="about">2Pac</p>
+                    </div>
+                    <div class="submenu two" id="two">
+                        <img class="twoimg" src="images/resume.png" alt="">
+                        <p id="twotext">Biggie</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video -->
+            <div class="xmb-title videos">
+                <img class="messages" src="images/video.png" alt="">
+                <p class="titletext">Video</p>
+                <div class="xmb-contents">
+                    <div class="submenu one" id="about">
+                        <img class="abimg" src="images/youtube.png" alt="">
+                        <p id="about">YouTube</p>
+                    </div>
+                    <div class="submenu two" id="two">
+                        <img class="twoimg" src="images/prime.png" alt="">
+                        <p id="twotext">Amazon Prime Video</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Games -->
+            <div class="xmb-title games">
+                <img class="messages" src="images/games.png" alt="">
+                <p class="titletext">Games</p>
+                <div class="xmb-contents">
+                    <div class="submenu one">
+                        <img class="abimg" src="images/uncharted.png" alt="">
+                        <p id="about">Uncharted 3</p>
+                    </div>
+                    <div class="submenu two" id="two">
+                        <img class="twoimg" src="images/gow3.png" alt="">
+                        <p id="twotext">God of War 3</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

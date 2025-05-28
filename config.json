@@ -1,0 +1,21 @@
+[
+  {
+    "name": "YouTube",
+    "file": "YouTube.ahk",
+    "icon": "icons/youtube.png",
+    "position": "4:3"
+  },
+  {
+    "name": "Steam",
+    "file": "Steam.exe",
+    "icon": "icons/steam.png",
+    "position": "2:1"
+  },
+  {
+    "name": "Netflix",
+    "file": "Netflix.ahk",
+    "icon": "icons/netflix.png",
+    "position": "1:1"
+  }
+  // Add more app objects as needed
+]
